@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart_checkout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Merriweather:wght@400;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,500;1,600;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="bodyContent" class="header"></div>
+
+    <div class="cart-wrapper container">
+      <!-- cart container -->
+      <section id="cart-container"></section>
+      <!-- cart total -->
+      <div id="container--for--checkout">
+        <div class="checkout-container">
+          <h3 class="cart-summary-tittle">Cart Summary</h3>
+          <div class="cart-total-container">
+            <h3>Cart Total</h3>
+            <p id="cart--total"></p>
+          </div>
+
+          <div>
+            <button id="checkout--btn">Proceed To Checkout</button>
+          </div>
+          <div class="payment-method">
+            <i class="fa-brands fa-paypal fa-2xl"></i>
+            <i class="fa-brands fa-stripe fa-2xl"></i>
+            <div>
+              <img
+                src="https://th.bing.com/th/id/R.e5830b68c13720cd313a5d6c9faba79a?rik=0WKXg0Lw5d7Vpw&pid=ImgRaw&r=0"
+                alt="paystack"
+              />
+            </div>
+            <div>
+              <img
+                src="https://th.bing.com/th/id/OIP.SplGzEMlAnQZ2pHbArpoBwHaFj?pid=ImgDet&rs=1"
+                alt="flutterWave"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------------------------------- -->
+    <footer id="footer"></footer>
+    <script
+      src="https://kit.fontawesome.com/6cc7f344ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
